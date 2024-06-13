@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <h1>Hello</h1>
+  <div class="home">
+    <div class="container">
+      
+    </div>
   </div>
 </template>
 <script setup>
