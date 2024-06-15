@@ -1,5 +1,8 @@
 <template>
-    <div class="card" :class="{ reverse :reverse }">
+    <div 
+        class="card" 
+        :class="{ reverse :reverse }"
+    >
         <slot />
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <Card>
-        <form action="">
+        <form>
             <h2>
                 How would you rate your service with us?
             </h2>
@@ -17,8 +17,7 @@
                     :disabled="btnDisabled"
                 >
                 </button>
-                <div 
-                    class="message">
+                <div class="message">
                     Text must be at least 10 charcters.
                 </div>
              </div>

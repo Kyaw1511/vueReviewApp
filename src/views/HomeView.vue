@@ -2,12 +2,13 @@
   <div class="home">
     <div class="container">
       <!-- Review Form -->
-       <review-from />
+       <reviews-form />
       <!-- Review Stats -->
       <!-- Review List-->
     </div>
   </div>
 </template>
 <script setup>
-  import ReviewForm from '../components/ReviewForm.vue';
+  import ReviewsForm from "../components/ReviewsForm.vue";
+
 </script>
