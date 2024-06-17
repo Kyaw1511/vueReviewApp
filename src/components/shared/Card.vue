@@ -1,8 +1,9 @@
 <template>
     <div 
         class="card" 
-        :class="{ reverse :reverse }"
+        :class="{ 'reverse' :reverse }"
     >
+        
         <slot />
     </div>
 </template>
@@ -19,7 +20,7 @@
 </script> -->
 <script>
     export default {
-        name: "Card",
+        name: 'Card',
         props: {
             reverse: {
                 type: Boolean,

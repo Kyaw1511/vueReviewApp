@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Review Form -->
        <reviews-form />
-      <!-- Review Stats -->
+      <!-- Review Stats --> 
       <!-- Review List-->
     </div>
   </div>
