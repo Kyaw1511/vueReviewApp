@@ -10,7 +10,7 @@
             7
         </div>
         <div class="text-display">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at minus totam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at minus totam. Lorem ipsum dolor sit.
         </div>
     </card>
 </template>
