@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "json-server --watch reviews.json --port 5000",
-    "serve": "concurrently \"npm run start\" \"npm run dev\""
+    "start": "json-server --watch reviews.json --port 3000",
+    "serve": "concurrently \"yarn start\" \"yarn dev\""
   },
   "dependencies": {
     "pinia": "^2.1.7",
