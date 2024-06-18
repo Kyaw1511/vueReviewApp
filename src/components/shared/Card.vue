@@ -2,8 +2,7 @@
     <div 
         class="card" 
         :class="{ 'reverse' :reverse }"
-    >
-        
+    > 
         <slot />
     </div>
 </template>
@@ -39,5 +38,4 @@
         background: #212121;
         color: #fff;
     }
-
 </style>

@@ -12,7 +12,7 @@
                 :checked="selected === n"
                 v-model="selected"
             >
-            <label for="`num${n}`">
+            <label :for="`num${n}`">
                 {{ n }}
             </label>
         </li>
@@ -22,7 +22,7 @@
 <script >
     export default {
         name: 'RatingSelect',
-        data(){
+        data() {
             return {
                 selected: this.rating
             }
@@ -37,13 +37,11 @@
                 this.$emit('setRating', newVal)
             },
             rating(newVal){
-                this.selected = newVal;
+                this.selected = newVal; 
             }
         }
     }
-
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
 </style>

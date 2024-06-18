@@ -142,7 +142,7 @@ input:focus {
   outline: none;
 }
 
-.feedback-stats {
+.feedback-status {
   color: #fff;
   display: flex;
   justify-content: space-between;

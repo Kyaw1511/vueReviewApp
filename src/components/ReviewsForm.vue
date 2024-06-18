@@ -7,7 +7,8 @@
             <!-- Rating Component -->
             <rating-select 
                 :rating="rating" 
-                @setRating="setRating" />
+                @setRating="setRating" 
+            />
             <div class="input-group">
                 <input 
                     type="text"
@@ -20,7 +21,6 @@
                     :disabled="btnDisabled"
                 >
                 </button>
-                
             </div>
             <div class="message">
                 Text must be at least 10 charcters.
@@ -45,5 +45,4 @@
 </script>
 
 <style>
-
 </style>
