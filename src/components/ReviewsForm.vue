@@ -1,6 +1,8 @@
 <template>
     <Card>
-        <form>
+        <form
+            @submit.prevent="handleSubmit"
+        >
             <h2>
                 How would you rate your service with us?
             </h2>
@@ -38,6 +40,13 @@
     const message = ref("");
     const rating = ref(9);
 
+    const handleSubmit = () => {
+        const newReview  = {
+            text: text.value,
+            rating: rating.value,
+        };
+        
+    }
     const setRating = (val) => {
         rating.value = val;
         console.log(val);
