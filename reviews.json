@@ -1,5 +1,14 @@
 {
-    "reviews": [
-        
-    ]
+  "reviews": [
+    {
+      "text": "This is demo tool",
+      "rating": 9,
+      "id": 1
+    },
+    {
+      "text": "This is testing 2",
+      "rating": 9,
+      "id": 2
+    }
+  ]
 }
